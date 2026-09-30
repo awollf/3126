@@ -1,0 +1,32 @@
+html {
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+.c-pill {
+    border-radius: 18px;
+    padding: 10px;
+    margin: 40px;
+    font-family: "Franklin Gothic thin", "Arial Narrow";
+    color: navy;
+    background-color: powderblue;
+
+    &.c-pill--secondary {
+        background-color: lightgoldenrodyellow;
+        color: darkcyan;
+    }
+
+    &.c-pill--disabled {
+        background-color: whitesmoke;
+        color: lightslategray;
+        border: 1px solid lightslategray;
+    }
+
+    &.c-pill--customized {
+        font-family: "Impact", "Arial Narrow Bold";
+        font-weight: 200;
+        background-color: lightcyan;
+        color: darkcyan;
+        border: 2px solid darkcyan;
+    }
+}
